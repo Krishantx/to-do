@@ -1,0 +1,61 @@
+
+.border {
+    border-style: solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.green {
+    border-color: greenyellow;
+}
+
+.hide {
+    display: none;
+    flex-direction: column;
+}
+.show {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: black;
+    padding: 04px;
+    width: fit-content;
+}
+body {
+    background: whitesmoke;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.newTask input {
+    height: 30px;
+}
+
+.ip {
+    width: 50%;
+}
+.newTask button {
+    height: 35px;
+
+}
+
+.newTask {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.list div {
+    border-style: double;
+    padding: 5px;
+}
